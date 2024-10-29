@@ -1,0 +1,42 @@
+
+
+
+body{
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+#hero{
+    background-image: url("images/galaxy.webp");
+    background-size: cover;     /* make background image and browser with same width */
+    padding: 10px 0 40px 0;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    position: relative; /* Needed if using overlays */
+    
+}
+
+
+#main-logo{
+    width: 100px;
+
+}
+#title{
+    text-shadow: 0 0 4px black;
+}
+
+.btn{
+    padding: 6px 12px;
+    background: rgb(220, 223, 236);
+    border: none;
+    font-family: inherit;
+    color: #82a5ca;
+    font-weight: 800;
+}
+
+.underline{
+    border-bottom: 4px solid white;
+}
